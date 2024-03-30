@@ -69,7 +69,9 @@ class Deque {
     }
     removeBack(){
         this.count --
+        const resultado = this.item[this.count]
         delete this.item[this.count]
+        return resultado    
     }
     peekFront(){
         if(this.isEmpty()){
