@@ -109,3 +109,4 @@ function verifiaPalindromo(string){
 }
 //agora teste
 console.log('ovo',verifiaPalindromo('ovo'))
+console.log('level',verifiaPalindromo('level'))
